@@ -1,0 +1,12 @@
+.vscode/**
+.vscode-test/**
+.devcontainer/**
+node_modules/**
+dist/test/**
+src/**
+*.vsix
+*.binlog
+packages/
+msbuild/**
+global.json
+nuget.config
