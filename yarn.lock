@@ -3,9 +3,6 @@
 # yarn lockfile v1
 }
 
-
-
-
 "@azu/format-text@^1.0.1", "@azu/format-text@^1.0.2":
   version "1.0.2"
   resolved "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public-npm/npm/registry/@azu/format-text/-/format-text-1.0.2.tgz"
