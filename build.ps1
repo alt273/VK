@@ -45,11 +45,6 @@ if (Test-Path node_modules) { rm -r -force node_modules }
 npm ci
 npm run compile
 
-import sys
-import subprocess
-import os
-from pathlib import Path
-
 if (! $?)
 {
     Write-Host "`nBuild failed!" -ForegroundColor $errorColor
