@@ -1,3 +1,4 @@
+{
 # Name: dotnet.vscode-dotnet-runtime
 
 # URL: https://dev.azure.com/dnceng/internal/_build?definitionId=656
@@ -92,14 +93,14 @@ extends:
         parameters:
           pool:
             name: NetCore1ESPool-Internal
-            image: 1es-windows-2022
+            image: 1es-windows-2026
             os: windows
           useOneEngineeringPool: true
       - template: pipeline-templates/package-vsix.yaml@self
         parameters:
           pool:
             name: NetCore1ESPool-Internal
-            image: 1es-windows-2022
+            image: 1es-windows-2026
             os: windows
           useOneEngineeringPool: true
           SignType: Real
@@ -111,3 +112,5 @@ extends:
             image: 1es-windows-2022
             os: windows
           useOneEngineeringPool: true
+
+}
