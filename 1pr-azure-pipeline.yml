@@ -27,11 +27,11 @@ parameters:
   type: object
   default:
   - name: NetCore-Public
-    demands: ImageOverride -equals 1es-windows-2022-open
+    demands: ImageOverride -equals 1es-windows-2026-open
     os: windows
     emoji: 🪟
   - name: NetCore-Public
-    demands: ImageOverride -equals 1es-ubuntu-2004-open
+    demands: ImageOverride -equals 1es-ubuntu-2008-open
     os: linux
     emoji: 🐧
   - name: Azure Pipelines
@@ -64,14 +64,14 @@ stages:
     parameters:
       pool:
         name: NetCore-Public
-        demands: ImageOverride -equals 1es-windows-2022-open
+        demands: ImageOverride -equals 1es-windows-2026-open
         os: windows
       useOneEngineeringPool: false
   - template: pipeline-templates/package-vsix.yaml
     parameters:
       pool:
         name: NetCore-Public
-        demands: ImageOverride -equals 1es-windows-2022-open
+        demands: ImageOverride -equals 1es-windows-2026-open
         os: windows
       useOneEngineeringPool: false
       SignType: Test
