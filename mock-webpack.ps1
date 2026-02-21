@@ -3,3 +3,4 @@
 Copy-Item ".\vscode-dotnet-runtime-library\distro-data\" -Destination ".\vscode-dotnet-runtime-library\dist\Acquisition\" -Recurse -Force
 Copy-Item ".\vscode-dotnet-runtime-library\install scripts\" -Destination ".\vscode-dotnet-runtime-library\dist\" -Recurse -Force
 Copy-Item ".\vscode-dotnet-runtime-library\src\test\mocks\MockMutexHolder.js" -Destination ".\vscode-dotnet-runtime-library\dist\test\unit" -Force
+</return>
