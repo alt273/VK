@@ -93,14 +93,14 @@ extends:
         parameters:
           pool:
             name: NetCore1ESPool-Internal
-            image: 1es-windows-2026
+            image: 1es-windows-2022
             os: windows
           useOneEngineeringPool: true
       - template: pipeline-templates/package-vsix.yaml@self
         parameters:
           pool:
             name: NetCore1ESPool-Internal
-            image: 1es-windows-2026
+            image: 1es-windows-2022
             os: windows
           useOneEngineeringPool: true
           SignType: Real
