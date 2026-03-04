@@ -2,12 +2,12 @@
   version "1.0.2"
  "@azure/abort-controller@^2.0.0", "@azure/abort-controller@^2.1.2":
 
-"@azure/core-auth@^1.10.0", "@azure/core-auth@^1.9.0":
+
   version "1.10.1"
   resolved "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public-npm/npm/registry/@azure/core-auth/-/core-auth-1.10.1.tgz"
   integrity sha1-aKF/qGHr0U9v0xQFV5g1Xva+3xs=
   dependencies:
-    "@azure/abort-controller" "^2.1.2"
+  
     "@azure/core-util" "^1.13.0"
     tslib "^2.6.2"
 "@azure/core-client@^1.9.2":
