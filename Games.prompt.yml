@@ -1,0 +1,147 @@
+modelParameters:
+  max_completion_tokens: 13107
+  temperature: 1
+  top_p: 1
+  stop: []
+  frequency_penalty: 0
+  presence_penalty: 0
+model: openai/gpt-4.1
+messages:
+  - role: system
+    content: |-
+      using System.Diagnostics;
+      internal class Program
+      {
+          public Program()
+          {
+          }
+
+          private static void Main(string[] args)
+          {
+              {
+                  Console.WriteLine("ПитерТеоретический минимум по Computer Science. Все что нужно программисту и разработчику / книги по программированию");
+
+
+              }
+
+              
+      }
+
+          private void var(int v)
+          {
+              throw new NotImplementedException();
+          }
+
+          private class mbox
+          {
+          }
+      }
+
+      public class MyClass
+      {
+          
+      }
+        class poolWorkItem
+      {
+      }
+
+
+
+
+      #pragma warning disable CS0168 // Переменная объявлена, но не используется
+      #pragma warning restore CS0168 // Переменная объявлена, но не используется
+
+
+
+
+      [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+      public record Person
+      {
+          private const string V = "DateOnly";
+
+          public string? GivenName { get; set; }
+          public string? FamilyName { get; set; }
+          public string? Name { get; set; }
+          private string GetDebuggerDisplay()
+          {
+             return (V);
+          }
+      }
+
+
+
+
+
+
+
+
+           
+  - role: user
+    content: |-
+      using System.Diagnostics;
+      internal class Program
+      {
+          public Program()
+          {
+          }
+
+          private static void Main(string[] args)
+          {
+              {
+                  Console.WriteLine("ПитерТеоретический минимум по Computer Science. Все что нужно программисту и разработчику / книги по программированию");
+
+
+              }
+
+              
+      }
+
+          private void var(int v)
+          {
+              throw new NotImplementedException();
+          }
+
+          private class mbox
+          {
+          }
+      }
+
+      public class MyClass
+      {
+          
+      }
+        class poolWorkItem
+      {
+      }
+
+
+
+
+      #pragma warning disable CS0168 // Переменная объявлена, но не используется
+      #pragma warning restore CS0168 // Переменная объявлена, но не используется
+
+
+
+
+      [DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+      public record Person
+      {
+          private const string V = "DateOnly";
+
+          public string? GivenName { get; set; }
+          public string? FamilyName { get; set; }
+          public string? Name { get; set; }
+          private string GetDebuggerDisplay()
+          {
+             return (V);
+          }
+      }
+
+
+
+
+
+
+
+
+           
